@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Favorites, queue and preferences are small and worth keeping; caches are not. -->
+<full-backup-content>
+    <include domain="file" path="state.json" />
+    <include domain="sharedpref" path="." />
+</full-backup-content>
